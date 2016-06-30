@@ -1,0 +1,9 @@
+Olivier Gabison - Assignment 3
+
+1. 0 times.
+
+2. The difference of a do while loops is that a do while loop executes the content
+of the loop before checking the condition. While a while loop checks the condition
+before executing the content.
+
+3. It breaks out to the outer loops. In other words, it doesn't break out of all the for loops.
