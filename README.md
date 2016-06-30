@@ -29,20 +29,20 @@ The size (defined as the length of the middle row) will be determined by you.
 In a text file `assignment3.txt`, answer the following questions:
 
 1. Is the following code valid?  If so, what information or assumptions must be given for it to be valid?  If not, why not?
-```c 
-for(;i < 1000;i*=2) 
-{
-    printf(“%d\n”);
-}
-  ```
+	```c 
+	for(;i < 1000;i*=2) 
+	{
+	    printf(“%d\n”);
+	}
+	  ```
 
 2. What, if anything, is wrong with the following code fragment?  You may assume all variables are defined.
-```c 
-for(i=0;i<10;i--);
-{
-	i=(int) (i*0.5);
-}
-```
+	```c 
+	for(i=0;i<10;i--);
+	{
+		i=(int) (i*0.5);
+	}
+	```
 
 3. Determine the complexity of the following code snippets:
 
