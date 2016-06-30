@@ -1,0 +1,6 @@
+Jack Rosen
+1. This is valid but it is assumed that the variable i has already been initialized.
+2. This is an infinite loop since i is always below 10 because it only gets smaller than 0 and never reaches 10.
+3. i.O(n^2)
+ii. O(n^2 + n)
+iii. O(2n)
