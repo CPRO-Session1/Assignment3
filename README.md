@@ -36,7 +36,7 @@ In a text file `assignment3.txt`, answer the following questions:
 
 2. Explain the difference between a while and a do while loop. 
 
-3. 
+3. In a nested loop, where does control flow go if a break statement is used in the inner loop?
 
 ### Submission Guidelines
 Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment3.txt file.
