@@ -46,6 +46,33 @@ for(i=0;i<10;i--);
 
 3. Determine the complexity of the following code snippets:
 
+i. 
+```c
+sum = 0;
+for( i = 0; i < n; i++ )
+	for( j = 0; j < n; j++ )
+		sum++;
+```
+
+ii. 
+```c
+sum = 0;
+for( i = 1; i < n; i++ )
+	for( j = 1; j < i * i; j++ )
+		if( j % i == 0 )
+			for( k = 0; k < j; k++ )
+				sum++;
+```
+
+iii. 
+
+```c 
+sum = 0;
+for( i = 0; i < n; i++ )
+	sum++;
+for( j = 0; j < n ; j++ )
+	sum++;
+```
 
 ### Submission Guidelines
 Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment3.txt file.
