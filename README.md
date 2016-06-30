@@ -22,7 +22,7 @@ To gain a solid understanding of loops in C Programming.
 ```
 The size (defined as the length of the middle row) will be determined by you. 
 
-3. Implement a program that allows a user to play “Rock Paper Scissors” with the computer. Write this program as efficiently as possible. You should use a menu for the user decision and not string input.
+3. Implement a program that allows a user to play “Rock Paper Scissors” with the computer. The winner must win a best of 5 match.  Write this program as efficiently as possible. You should use a menu for the user decision and not string input.
 
 
 ### Part 2
