@@ -1,6 +1,6 @@
 Lloyd Page
 1. Yes, however i must be declare and initialized before the for loop
-2. The for loop is an infinite loop, as i goes negative, and will not ever satisfy the closing condition of the for loop. Also, a semicolon after the foor loop results in it doing nothing, and the i in the code not being initialized.
+2. The for loop is an infinite loop, as i goes negative, and will not ever satisfy the closing condition of the for loop. Also, a semicolon after the foor loop results in it doing nothing.
 3.i O(n^2)
-3.ii O(n^2) the third loop evaluates to the infinite sum of 1/n^2 in terms of complexity, which converges to approx 1.644. taken over infinity, this is practically zero, so the third function is called so rarely that it doesn't matter.
-3.iii O(n)
+3.ii O(n^2) the third loop evaluates to the infinite sum of 1/n^2 in terms of complexity, which converges to approx 1.644. taking 1.644  over infinity results in practically zero, which means the third for loop is called so rarely that it doesn't matter.
+3.iii O(n) the two separate for loops run N times, so technically 2n, however we don't care about the integers with big O complexity, so n.
