@@ -1,0 +1,12 @@
+Clarke Littlejohn
+
+
+1) No the code is not valid do to the printf(). it should be printf("%d",somenumber);. If that is fixed you can assume that the stdio.h is included, 
+that it is in the main function, that i is initialized before the for loop, and that it returns 0 then the code should work.
+
+2) the code should work but it is useless. it is and infinite loop the rror in this might be that the i-- should be i++
+
+3)i   O(n^2)
+  ii  O(n^3)
+  iii O(n)
+
