@@ -1,0 +1,10 @@
+Christopher Liu
+
+1. No, there is no input for the formatted string. If there were, you would have to assume that i was declared as a positive integer. If a float, the loop would not work as it takes integers, and if it is negative, it would last forever.
+
+2. The loop is going to be set to 0 since when it iterates, it will go to -1 then 0.5 then truncate to 0, resulting in an infinite setting to 0. There is also a semicolon after the for loop parameters, which would make the loop do nothing. 
+
+3. i. O(n^2)
+ii. O(n^3)
+iii. O(2n)
+I don’t get this stuff
