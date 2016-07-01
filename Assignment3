@@ -1,0 +1,60 @@
+
+1. Is the following code valid?  If so, what information or assumptions must be given for it to be valid?  If not, why not?
+	```c 
+	for(;i < 1000;i*=2) 
+	{
+	    printf(“%d\n”);
+	}
+	  ```
+Answer:
+No. Because the initialization is lost in the for function, and there is no value after the "%d\n" as well.
+
+2. What, if anything, is wrong with the following code fragment?  You may assume all variables are defined.
+	```c 
+	for(i=0;i<10;i--);
+	{
+		i=(int) (i*0.5);
+	}
+	```
+Answer:
+0.5 is not an integer, and probably i*0.5 is not an integer as well.
+
+3. Determine the complexity of the following code snippets:
+
+i. 
+```c
+sum = 0;
+for( i = 0; i < n; i++ )
+	for( j = 0; j < n; j++ )
+		sum++;
+```
+Answer:
+If there's no definition of sum before, it may need a "int sum = 0".
+The relationship between the two if function and the statement "sum++" is unclear.
+
+ii. 
+```c
+sum = 0;
+for( i = 1; i < n; i++ )
+	for( j = 1; j < i * i; j++ )
+		if( j % i == 0 )
+			for( k = 0; k < j; k++ )
+				sum++;
+```
+Answer:
+If there's no definition of sum before, it may need a "int sum = 0".
+The relationships between the if functions are not clear.
+
+iii. 
+
+```c 
+sum = 0;
+for( i = 0; i < n; i++ )
+	sum++;
+for( j = 0; j < n ; j++ )
+	sum++;
+```
+Answer:
+If there's no definition of sum before, it may need a "int sum = 0".
+Others are complete.
+
