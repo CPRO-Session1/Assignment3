@@ -6,5 +6,5 @@ Assignment 3
 1. The code written was invalid because the printf statement should look like this: printf("%d\n",i);
 2. i=(int) should be before the for loop. Also, the statement should look like this: int i;
 3. i.2^n
-   ii. 2^n
+   ii. 0(n^4)
    iii.0(n)
