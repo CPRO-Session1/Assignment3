@@ -1,0 +1,13 @@
+Yael Kelmer. 
+
+1. The code is not valid, because there is no initialization stated / i is not defined and in the printf statement the name of the variable is missing. 
+
+2. Nothing is wrong with the code in the sense that it will compile, but it is an infinite loop, meaning it will never terminate.
+
+3. 
+
+i. complexity = O(n^2)
+
+ii. complexity = O(n^4) 
+
+iii. complexity = O(2n)
