@@ -1,0 +1,7 @@
+1. it is invalid because a for loop has 3 requirements inside the for loop. (initialisation; condition; incrementat). It does not meet these requirements.
+2. It is an infinite loop. The number will keep getting smaller.
+3. 
+i. n^2
+ii. cube if the if statement is true if not it is only squared.
+iii. n
+
