@@ -1,0 +1,26 @@
+Emma Ladouceur
+
+Assignment Answers
+
+
+1. I dont' think it is valid.
+	First after the %d what is the code printing? That means it should be preparing for an integer and there is nothing defined nor is there a variable name following in. 
+	Secondly, there is a semicolon before the i.
+
+
+2. 
+There should not be a semi colon after the first set of () because it will go straight to the {}.
+
+
+3. I'm still a little confused about this, but I'm going to try it out.
+
+i. There are no factorials or squares or cubes or logs so I would say this is just 0(1) in terms of complexity.
+
+ii.
+Okay. This one is a little more complicated I think because of the nested loops and the if statement but I don't really understand how it moves up so I would just guess that it jumps up to O(logn)
+
+iii. 
+this isn't nested so I would guess that it's just O(1) because it would take less time then a nested loop. I think this would be the least complicated and thus the fastest.
+
+:) Thanks!
+Emma
