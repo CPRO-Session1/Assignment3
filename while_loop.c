@@ -1,4 +1,5 @@
 /*Ava N.*/
+/*2^n under 1,000*/
 
 #include <stdio.h>
 #include <math.h>
