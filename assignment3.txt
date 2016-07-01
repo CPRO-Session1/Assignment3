@@ -1,0 +1,6 @@
+Rumeet Goradia
+1. The code is invalid. Firstly, if we wanted it to be valid, we would have to assume that the variable i was not only declared earlier in the program but also assigned a value. We also have to assume that the correct header files and int main() are included previously in the program. However, the program is mainly invalid because the print statement is attempting to print a variable but no distinct variable is called.
+2. The main problem comes with the initialization, condition, and increment of the for statement. The index parameter starts at 0 and will always decrease by 1 every time the for statement runs. Since the condition for the loop execution is that the index parameter is always less than 10, and since 0 and every number below it are less than 10, the loop will run infinitely. 
+3. 	i. O(n^2)
+  	ii. O(n^3)
+	iii. O(n)
