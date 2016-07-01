@@ -1,0 +1,16 @@
+Olivier Gabison
+
+1. for(;i < 1000;i*=2)
+{
+    printf(“%d\n”);
+}
+
+The stuff that are incorrect is that for the printf, if you use %d, you have to include a variable after
+like: printf("%d\n", x);
+
+2. That there is a semicolon after here: for(i=0;i<10;i--); <-
+
+3. (I honestly have no idea)
+  1. n^2
+  2. n^4
+  3. n^2
