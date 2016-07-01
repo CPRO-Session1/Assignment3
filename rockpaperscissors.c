@@ -16,6 +16,31 @@ do{
 		printf("Please choose an option from the following menu:\n1 (ROCK)\n2 (PAPER)\n3 (SCISSORS)\n");
 		scanf("%d", &choice);
 		int difference = r - choice;
+		switch (choice){
+			case 1:
+				printf("You chose ROCK. ");
+				break;
+			case 2:
+				printf("You chose PAPER. " );
+				break;
+			case 3:
+				printf("You chose SCISSORS. ");
+				break;
+			default:
+				printf("That is not an option.");
+				break;
+		}
+		switch (r){
+			case 1:
+				printf("Computer chose ROCK.\n");
+				break;
+			case 2:
+				printf("Computer chose PAPER.\n");
+				break;
+			case 3:
+				printf("Computer chose SCISSORS.\n");
+				break;
+		}
 		if (difference<0)
 			difference=difference*(-1);
 		switch (difference)
@@ -43,7 +68,7 @@ do{
 				}
 				break;
 			case 2: 
-				if (r>choice)
+				if (r<choice)
 				{
 					printf("Sorry, the computer won this round!\n");
 					losses=count-wins;
