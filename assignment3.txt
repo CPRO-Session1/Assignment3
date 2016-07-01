@@ -1,0 +1,10 @@
+Sean Kee
+
+1. The code is invalid. First, the i variable would have to be initialized beforehand. Second, the %d in the printf function is missing a variable after. Also, if this isn't a code fragment, you are missing the #include standard I/O and int main().
+
+2. There is nothing wrong with the following code fragment.
+
+3.
+i. O(n^2)
+ii. O(n^2+n^2)
+iii. O(2n)
