@@ -1,0 +1,7 @@
+1. The code is not valid as the syntax for the for loop is incorrect. First, i is never declared before it is used and is not given a starting value. Inside the loop, there is also no integer in the printf statement. 
+
+2. The variable i should not be reused within the loop because the computer will not be able to differentiate between the i being used to increment in the loop and the i in loop.
+
+3. i. O(2n) -- worst case scenario it would be O(n) for each loop --> O(2n)
+   ii. O(n^2)
+   iii. O(n)
