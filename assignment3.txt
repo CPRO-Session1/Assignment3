@@ -1,0 +1,28 @@
+Harry Brickner
+
+1) It is not valid, as the printf is expecting an int argument, but isn't being given one. Also, 'i' needs to be initialized. To make it valid, it should be in main (or a function called from main) and the file should include stdio.h.
+
+2) 'i' starts at 0 and decrements by 1 each loop. During the loop it is halved. There is no opportunity for 'i' to increase its value, so 'i' will always be less than 10, and the for loop will continue forever.
+
+3)
+    i) O(n^2)
+
+    ii) I made this graph: https://www.desmos.com/calculator/txtlv5lkqy
+	I made an error in the math somewhere, but it's too late to figure out where. I'm pretty sure the complexity is still correct.
+	-the number of times that the if statment's condition is met is equal to 1/i of the times it's tested.
+	-the number of times that the if is tested is equal to i^2
+	-the if statement's condition is met (i^2 - i)/i times aka i - 1
+	-the number of times the rightmost loop will loop is i + 2i + 3i... (i - 1)i
+		> which is equal to i^2 * i/2
+		> which is equal to i^3/2
+	-factoring the first loop in, the number of times the rightmost loop will loop is the sum of i^3/2 where i is an integer between 1 and (n - 1) inclusive.
+		>wolfram alpha says that is equal to: (n - 1)^2 * n^2/8
+		>(n^2 - 2n + 1)n^2 / 8
+		>(n^4 - 2n^3 + n^2)/8
+	-Time to get rid of all the less important things!
+		> "/8" can go, because it is constant.
+		> "+ n^2" and "- 2n^3" can go because they get insignificant as n gets larger
+		> that leaves "n^4"
+	-And the complexity is: O(n^4)
+
+    iii) O(n);
