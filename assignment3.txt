@@ -1,9 +1,0 @@
-Julia Tan
-Assignment3 Part 2
-
-1. Yes, however it must be assumed that the variable 'i' has been initialized already.
-2. The code results in an infinite loop, because i decrement and therefore will always be less than 10.
-3.Determining complexity
-i. n^2
-ii.n^3
-iii.n
