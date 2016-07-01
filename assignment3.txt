@@ -1,0 +1,21 @@
+1. Is the following code valid? If so, what information or assumptions must be given for it to be 
+valid? If not, why not?
+	for (; i < 1000; i*= 2) {
+		printf("%d\n");
+	}
+The code is not valid for a few reasons. One is that there is no main statement or include statements
+but I will assume that those are assumed to be correct and focus on this fragment. In this fragment,
+the variable i is never declared or assigned a value. It could be either float or int at this point.
+In the case that it was int, the printf statement would be correct with %d, however after the
+quote statement it would need a comma and then the name of the variable.
+2. What if anything is wrong with the following code fragment? You may assume all variables are
+defined.
+	for(i=0;i<10;i--);
+	{
+		i = (int) (i*.5);
+	}
+It's an infinite loop. The value of i starts below ten and only ever decreases, so the loop will
+never terminate.
+3. i: O(n^2)
+  ii: O(n^3)
+ iii: O(n)
