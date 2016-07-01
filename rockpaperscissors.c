@@ -5,9 +5,10 @@
 int main()
 {
 int count;	
-int wins=0;
+int wins;
 int losses;
 do{	
+	wins=0;
 	for(count=1;count<=5;count++)
 	{
 		srand(time(0));
