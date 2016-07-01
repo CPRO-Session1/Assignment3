@@ -1,0 +1,8 @@
+Anya Lauria
+
+1. The code is invalid. This is because while the print statement is trying to output a variable which has not been 
+   called 
+2. There is a semicolon after the for statement 
+3. i. 0(n^2)
+  ii. 0(n^3)
+ iii. 0(2n) 
