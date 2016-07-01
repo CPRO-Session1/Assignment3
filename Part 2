@@ -1,0 +1,13 @@
+Matthew Danielson
+6/30/16
+Answers to questions for Part 2 of Assignment 3
+
+1) It is not valid; for one, variable i is not declared; we would have to assume that it has been declared already. The printf statement is also incrrect, as nothing is actually being printed, which will cause an error.
+
+2) This code will not run as intended, since this is an infinite loop, as it will constantly flip between positive and negative plus being constantly reduced by the .5 multiplier.
+
+3) i) n^2
+
+   ii) (coefficient)n^2 
+
+   iii) 2n
